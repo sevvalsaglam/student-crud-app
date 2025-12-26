@@ -9,7 +9,7 @@ app.use(express.json());
 const studentRoutes = require('./routes/studentRoutes');
 app.use('/api/students', studentRoutes);
 
-const PORT = 5050; // 👈 5000 DEĞİL
+const PORT = 5050;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
